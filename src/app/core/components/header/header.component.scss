@@ -16,14 +16,11 @@
   cursor: pointer;
 }
 
-.navbar-brand{
-  width: 120px;
-}
-
 .navbar-nav .nav-item{
 
   .nav-link{
     cursor: pointer;
+    font-size: 16px;
     font-family: Montserrat-SemiBold;
     color: #333333;
     width: fit-content;
@@ -79,33 +76,39 @@
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-
   :host{
     padding: 5px 0;
   }
+
+  .navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+  }
   
-  .navbar-brand{
+  .logo{
     width: 110px;
   }
 }
   
-  
-  // Small devices 
-  @media (max-width: 767.98px) {
 
-    :host{
-      padding: 0;
-    }
+// Small devices 
+@media (max-width: 767.98px) {
+   :host{
+    padding: 0;
+  }
     
-    .navbar-brand{
-      width: 100px;
-    }
+  .navbar-nav .nav-item .nav-link{
+    font-size: 13px;
+  }
 
-    .navbar-nav .nav-item .nav-link:first-child:after {
-      display: none;
-    }
+  .logo{
+    width: 100px;
+  }
+
+  .navbar-nav .nav-item .nav-link:first-child:after {
+    display: none;
+  }
   
-    .navbar-nav .nav-item .nav-link:hover:after {
-      display: none;
-    }
+  .navbar-nav .nav-item .nav-link:hover:after {
+    display: none;
+  }
 }
