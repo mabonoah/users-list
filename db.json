@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Daisy Morgan",
+      "gender": "female",
+      "email": "daisy.mor@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "gender": "male",
+      "email": "john.smith@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    },
+    {
+      "id": 3,
+      "name": "Jason Ehle",
+      "gender": "male",
+      "email": "jason.ehle@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    },
+    {
+      "id": 4,
+      "name": "John Smith",
+      "gender": "male",
+      "email": "john.smith@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    },
+    {
+      "id": 5,
+      "name": "Ammon Victor",
+      "gender": "male",
+      "email": "ammon.victor@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    },
+    {
+      "id": 6,
+      "name": "Annabella Sciorra",
+      "gender": "female",
+      "email": "annabella.sciorra@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    },
+    {
+      "id": 7,
+      "name": "Krunal Sojitra",
+      "gender": "male",
+      "email": "krunal.sojitra@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    },
+    {
+      "id": 8,
+      "name": "Andre Martins",
+      "gender": "male",
+      "email": "andre.martins@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    },
+    {
+      "id": 9,
+      "name": "Andrei Madison",
+      "gender": "male",
+      "email": "andrei.madison@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    },
+    {
+      "id": 10,
+      "name": "Jessica Witmer",
+      "gender": "female",
+      "email": "jessica.witmer@example.com",
+      "country": "United Kingdom",
+      "joined_date": "July 24, 2020 12:30pm"
+    }
+  ]
+}
