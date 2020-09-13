@@ -1,1 +1,26 @@
-<p>header works!</p>
+<nav ngxNavbarDynamicExpand class="navbar-light container">
+    
+    <img class="navbar-brand" src="../../../../assets/images/expert-apps-logo-color@1X.png" alt="">
+
+    <section class="navbar-toggler-section">
+        <div *ngIf="isSmallDevice" class="arabic-icon-container">
+            <img class="arabic-icon" src="../../../../assets/images/arabic-icon@4X.png" alt="">
+        </div>
+        <button class="navbar-toggler" type="button" (click)="collapse.toggle()" aria-controls="main-nav"
+            aria-expanded="false" aria-label="Navigáció kapcsoló">
+            <span class="navbar-toggler-icon d-flex align-items-center justify-content-center"> </span>
+        </button>
+    </section>
+
+    <ngx-navbar-collapse id="main-nav" #collapse="ngxNavbarCollapse">
+        <ul class="navbar-nav">
+            <li class="nav-item" [style.active]="i===0" *ngFor="let item of navBarList; index as i">
+                <a class="nav-link">{{item}} </a>
+            </li>
+        </ul>
+    </ngx-navbar-collapse>
+    <div *ngIf="!isSmallDevice" class="arabic-icon-container">
+        <img class="arabic-icon" src="../../../../assets/images/arabic-icon@4X.png" alt="">
+    </div>
+
+</nav>
