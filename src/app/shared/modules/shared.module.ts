@@ -2,18 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialAngularModule } from './material-angular.module';
 import { ngxBootstrapModule } from './ngx-bootstrap.module';
+import { SpinnerComponent } from '../components/spinner/spinner.component';
+
+const modules: any[] = [CommonModule, MaterialAngularModule, ngxBootstrapModule];
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    MaterialAngularModule,
-    ngxBootstrapModule
-  ],
+  declarations: [SpinnerComponent],
+  imports: [...modules],
   exports: [
-    CommonModule,
-    MaterialAngularModule,
-    ngxBootstrapModule
+    SpinnerComponent,
+    ...modules
   ]
 })
 export class SharedModule { }
