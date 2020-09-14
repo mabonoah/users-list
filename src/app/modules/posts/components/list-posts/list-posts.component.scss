@@ -43,7 +43,23 @@ table {
     @include border-radius(50%);
 }
 
+::ng-deep .mat-table thead{
+    background-color: #fbfeff;
+    color: #666666;
+}
+
+::ng-deep .mat-table th.mat-header-cell{
+    border-bottom-style:none ;
+}
+
+::ng-deep .mat-table td.mat-cell, td.mat-footer-cel{
+    color: #333333;
+    border-bottom-width: 10px;
+    border-color: #fbfeff;
+}
+
 ::ng-deep mat-paginator .mat-paginator-container{
+    background-color: #fbfeff;
     justify-content: center;
 
     button:focus{
