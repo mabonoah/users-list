@@ -19,7 +19,7 @@ export class SnackBarService {
     if (!config) config = {
       duration: 3000,
       horizontalPosition: 'center',
-      verticalPosition: 'bottom'
+      verticalPosition: 'top'
     }
     this.snackBar.open(message, action, config);
   }

@@ -19,6 +19,25 @@ export class UsersApiService {
       .pipe(catchError(this.handleError));
   }
 
+  public createUser(user: User): Observable<User> {
+    return this.httpClient.post<User>(this.mockApiURL, user, { headers: httpHeaders })
+      .pipe(catchError(this.handleError));
+  }
+
+  public editUser(id: any, user: User): Observable<User> {
+    return this.httpClient.put<User>(this.mockApiURL + '/' + id, user, { headers: httpHeaders })
+      .pipe(catchError(this.handleError));
+  }
+
+  public getUser(id: any): Observable<User> {
+    return this.httpClient.get<User>(this.mockApiURL + '/' + id, { headers: httpHeaders })
+      .pipe(catchError(this.handleError));
+  }
+
+  public deleteUser(id: any): Observable<User> {
+    return this.httpClient.delete<User>(this.mockApiURL + '/' + id, { headers: httpHeaders })
+      .pipe(catchError(this.handleError));
+  }
 
   /**
    * Handles http error response. 

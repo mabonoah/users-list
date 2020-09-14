@@ -6,7 +6,7 @@
       "imgName": "john_smith.png",
       "email": "john.smith@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "imgName": "jason_ehle.png",
       "email": "jason.ehle@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "imgName": "ammon_victor.png",
       "email": "ammon.victor@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "imgName": "krunal_sojitra.png",
       "email": "krunal.sojitra@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "imgName": "andre_martins.png",
       "email": "andre.martins@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "imgName": "andrei_madison.png",
       "email": "andrei.madison@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "imgName": "ece_akman.png",
       "email": "ece.akman@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "imgName": "john_smith.png",
       "email": "john.smith@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "imgName": "jason_ehle.png",
       "email": "jason.ehle@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "imgName": "ammon_victor.png",
       "email": "ammon.victor@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "imgName": "krunal_sojitra.png",
       "email": "krunal.sojitra@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "imgName": "andre_martins.png",
       "email": "andre.martins@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 13,
@@ -102,7 +102,7 @@
       "imgName": "andrei_madison.png",
       "email": "andrei.madison@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "imgName": "ece_akman.png",
       "email": "ece.akman@example.com",
       "country": "United Kingdom",
-      "joined_date": "July 24, 2020 12:30pm"
+      "joined_date": "July 24, 2020"
     }
   ]
 }
