@@ -100,6 +100,7 @@ export class PostFormComponent implements OnInit {
   private createUser() {
     this.usersApiService.createUser(this.form.value).pipe(takeWhile(() => this.alive))
       .subscribe((response: any) => {
+        response.joined_date = new Date(response.joined_date).toDateString();
         this.usersService.addUser(response);
         this.dialogRef.close();
         this.snackBarService.openSnackBar('User has been created', 'User')
@@ -109,8 +110,9 @@ export class PostFormComponent implements OnInit {
   }
 
   private editUser() {
-    this.usersApiService.editUser(this.userId,this.form.value).pipe(takeWhile(() => this.alive))
+    this.usersApiService.editUser(this.userId, this.form.value).pipe(takeWhile(() => this.alive))
       .subscribe((response: any) => {
+        response.joined_date = new Date(response.joined_date).toDateString();
         this.usersService.updateUser(response);
         this.dialogRef.close();
         this.snackBarService.openSnackBar('User has been updated', 'User')
