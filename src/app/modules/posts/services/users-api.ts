@@ -9,14 +9,31 @@ const httpHeaders: HttpHeaders = new HttpHeaders({ 'Content-Type': 'application/
 @Injectable()
 
 export class UsersApiService {
-  private mockApiURL = "http://localhost:3000/users/";
+  private mockApiURL = "https://my-json-server.typicode.com/muhammad-a-ali/list-posts/users/";
 
   constructor(private httpClient: HttpClient) { }
 
 
   public getAllUsers(): Observable<User[]> {
-    return this.httpClient.get<User[]>(this.mockApiURL, { headers: httpHeaders });
+    return this.httpClient.get<User[]>(this.mockApiURL, { headers: httpHeaders })
+      .pipe(catchError(this.handleError));
   }
 
+
+  /**
+   * Handles http error response. 
+   * @param error The http error response.
+   */
+  private handleError(error: HttpErrorResponse) {
+    let errorMessage = 'Unknown error!';
+    if (error.error instanceof ErrorEvent) {
+      // Client-side errors
+      errorMessage = `Error: ${error.error.message}`;
+    } else {
+      // Server-side errors
+      errorMessage = `Error Code: ${error.status}\nMessage: ${error.message}`;
+    }
+    return throwError(errorMessage);
+  }
 
 }

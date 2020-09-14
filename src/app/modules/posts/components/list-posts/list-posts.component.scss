@@ -1,0 +1,22 @@
+@import '../../../../../assets/style/global-mixins.scss';
+
+:host{
+    height: 100%;
+    font-weight: Montserrat-Medium;
+}
+
+.table-section{
+    height: 80%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+}
+
+.user-img{
+    margin-right: 5px;
+    height: 35px;
+    width: 35px;
+    @include border-radius(50%);
+}

@@ -7,7 +7,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import {MatTabsModule} from '@angular/material/tabs';
+import {MatTableModule} from '@angular/material/table';
 
 const modules: any[] = [
     MatFormFieldModule,
@@ -18,7 +18,7 @@ const modules: any[] = [
     MatTooltipModule,
     MatPaginatorModule,
     MatProgressSpinnerModule,
-    MatTabsModule
+    MatTableModule
 ];
 
 @NgModule({
