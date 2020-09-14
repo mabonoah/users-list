@@ -9,7 +9,7 @@ const httpHeaders: HttpHeaders = new HttpHeaders({ 'Content-Type': 'application/
 @Injectable()
 
 export class UsersApiService {
-  private mockApiURL = "https://my-json-server.typicode.com/muhammad-a-ali/list-posts/users/";
+  private mockApiURL = "https://my-json-server.typicode.com/muhammad-a-ali/users-list/users/";
 
   constructor(private httpClient: HttpClient) { }
 
