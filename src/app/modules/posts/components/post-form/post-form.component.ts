@@ -58,7 +58,7 @@ export class PostFormComponent implements OnInit {
 
   onSubmit() {
     if (this.form.invalid || this.isView) return;
-    this.title == 'add' ? this.createUser() : this.editUser();
+    this.title == 'Add' ? this.createUser() : this.editUser();
   }
 
   private onDetectPath(): void {

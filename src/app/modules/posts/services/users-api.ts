@@ -25,17 +25,17 @@ export class UsersApiService {
   }
 
   public editUser(id: any, user: User): Observable<User> {
-    return this.httpClient.put<User>(this.mockApiURL + '/' + id, user, { headers: httpHeaders })
+    return this.httpClient.put<User>(this.mockApiURL + id, user, { headers: httpHeaders })
       .pipe(catchError(this.handleError));
   }
 
   public getUser(id: any): Observable<User> {
-    return this.httpClient.get<User>(this.mockApiURL + '/' + id, { headers: httpHeaders })
+    return this.httpClient.get<User>(this.mockApiURL + id, { headers: httpHeaders })
       .pipe(catchError(this.handleError));
   }
 
   public deleteUser(id: any): Observable<User> {
-    return this.httpClient.delete<User>(this.mockApiURL + '/' + id, { headers: httpHeaders })
+    return this.httpClient.delete<User>(this.mockApiURL + id, { headers: httpHeaders })
       .pipe(catchError(this.handleError));
   }
 
