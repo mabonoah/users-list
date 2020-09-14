@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "John Smith",
-      "img": "john_smith",
+      "imgName": "john_smith.png",
       "email": "john.smith@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Jason Ehle",
-      "img": "jason_ehle",
+      "imgName": "jason_ehle.png",
       "email": "jason.ehle@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "Ammon Victor",
-      "img": "ammon_victor",
+      "imgName": "ammon_victor.png",
       "email": "ammon.victor@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "name": "Krunal Sojitra",
-      "img": "krunal_sojitra",
+      "imgName": "krunal_sojitra.png",
       "email": "krunal.sojitra@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "name": "Andre Martins",
-      "img": "andre_martins",
+      "imgName": "andre_martins.png",
       "email": "andre.martins@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "name": "Andrei Madison",
-      "img": "andrei_madison",
+      "imgName": "andrei_madison.png",
       "email": "andrei.madison@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -51,7 +51,7 @@
     {
       "id": 7,
       "name": "Ece Akman",
-      "img": "ece_akman",
+      "imgName": "ece_akman.png",
       "email": "ece.akman@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -59,7 +59,7 @@
     {
       "id": 8,
       "name": "John Smith",
-      "img": "john_smith",
+      "imgName": "john_smith.png",
       "email": "john.smith@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -67,7 +67,7 @@
     {
       "id": 9,
       "name": "Jason Ehle",
-      "img": "jason_ehle",
+      "imgName": "jason_ehle.png",
       "email": "jason.ehle@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -75,7 +75,7 @@
     {
       "id": 10,
       "name": "Ammon Victor",
-      "img": "ammon_victor",
+      "imgName": "ammon_victor",
       "email": "ammon.victor@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -83,7 +83,7 @@
     {
       "id": 11,
       "name": "Krunal Sojitra",
-      "img": "krunal_sojitra",
+      "imgName": "krunal_sojitra.png",
       "email": "krunal.sojitra@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -91,7 +91,7 @@
     {
       "id": 12,
       "name": "Andre Martins",
-      "img": "andre_martins",
+      "imgName": "andre_martins.png",
       "email": "andre.martins@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -99,7 +99,7 @@
     {
       "id": 13,
       "name": "Andrei Madison",
-      "img": "andrei_madison",
+      "imgName": "andrei_madison.png",
       "email": "andrei.madison@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"
@@ -107,7 +107,7 @@
     {
       "id": 14,
       "name": "Ece Akman",
-      "img": "ece_akman",
+      "imgName": "ece_akman.png",
       "email": "ece.akman@example.com",
       "country": "United Kingdom",
       "joined_date": "July 24, 2020 12:30pm"

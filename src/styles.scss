@@ -34,4 +34,5 @@ $list-posts-theme: mat-light-theme((
 @include angular-material-theme($list-posts-theme);
 
 /* You can add global styles to this file, and also import other style files */
+@import './assets/style/material-angular-override.scss';
 @import './assets/style/main-style.scss';
